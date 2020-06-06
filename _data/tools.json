@@ -1,0 +1,59 @@
+{
+"vim": {
+    "website": "http://bit.ly/2NWNK3z",
+    "documentation": "http://bit.ly/32PnvAg",
+    "cheat-sheet": "http://bit.ly/2r3upVy;w",
+    "learning": [
+        {
+            "name": "Vim Adventures",
+            "link": "http://bit.ly/33WJO8m" 
+        }
+    ],
+    "resources": [
+        {
+            "name": "Neovim", 
+            "link": "http://bit.ly/2Xk2dd1"
+        },
+        {
+            "name": "VimAwesome",
+            "link": "http://bit.ly/33063ZQ"
+        }
+    ]
+},
+"bash": {
+    "website":  "http://bit.ly/35bHkU1",
+    "documentation":  "http://bit.ly/2NT2X5K",
+    "cheat-sheet": "http://bit.ly/2pp0W7O",
+    "learning": [
+        {
+            "name": "Bash Shell Scripting",
+            "link": "http://bit.ly/2r0oY9I" 
+        }
+    ],
+    "resources": [
+        {
+            "name": "", 
+            "link": ""
+        }
+    ]
+},
+"jekyll": {
+    "website":  "http://bit.ly/32WdsJG",
+    "documentation":  "http://bit.ly/2puNEa3",
+    "cheat-sheet": "http://bit.ly/332AWNz",
+    "learning": [
+        {
+            "name": "",
+            "link": "" 
+        }
+    ],
+    "resources": [
+        {
+            "name": "", 
+            "link": ""
+        }
+    ]
+}
+
+
+}

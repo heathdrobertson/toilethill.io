@@ -1,0 +1,68 @@
+{
+    "tools": [
+        {
+            "list": [
+                "Ubuntu",
+                "Mac OSX"
+            ],
+            "title": "Computing Systems"
+        },
+        {
+            "list": [
+                "Terminator",
+                "iTerm2"
+            ],
+            "title": "Terminal"
+        },
+        {
+            "list": [
+                "Bash"
+            ],
+            "title": "Command Line"
+        },
+        {
+            "list": [
+                "Vim",
+                "NeoVim"
+            ],
+            "title": "Editor"
+        },
+        {
+            "list": [
+                "Docker Containers",
+                "Docker Images",
+                "NixOS",
+                "Nix Shell",
+                "Jupyter Lab Python",
+                "Jupyter Lab Haskell"
+            ],
+            "title": "Environment"
+        },
+        {
+            "list": [
+                "Python",
+                "Haskell",
+                "Rust",
+                "Ruby",
+                "Bash",
+                "Javascript",
+                "HTML",
+                "CSS",
+                "Sass",
+                "Nix Shell Script",
+                "Plutus",
+                "Solidity"
+            ],
+            "title": "Languages"
+        },
+        {
+            "list": [
+                "Angular",
+                "Vue.js",
+                "flask",
+                "Jekyll"
+            ],
+            "title": "Frameworks"
+        }
+    ]
+}

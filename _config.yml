@@ -1,0 +1,159 @@
+# Site Settings
+# in the templates via {{ site.myvariable }}.
+heath: "Heath's name"
+# https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
+
+# Configuration Options:
+locale: "en-US"
+title: "" 
+subtitle: ""
+logo: assets/images/logo/ToiletHill_header.png
+email: CodeHappens@ToiletHill.io
+description: >- # this means to ignore newlines until "baseurl:"
+    ToiletHill.io is a blog dedicated to recording the journey of self-teaching computer programming and development. Technologies include; Mac, Linux, Command Line, Vim, Bash, Docker, GitHub, Python, Haskell, Rust, JavaScript, CSS, HTML, Solidity, Plutus, Nodejs, Jekyll, Markdown, NixOs & nix Shell, Jupyter Lab (Python & Haskell), Bitcoin, Ethereum, Cardano, Holochain and most likely others.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ToiletHill.io" # the base hostname & protocol for your site, e.g. http://example.com
+teaser: /assets/images/teaser_image_place_holder.jpg
+minimal_mistakes_skin: air
+search: true
+breadcrumbs: false
+
+# Build settings
+theme: minimal-mistakes-jekyll
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+excerpt_separator: "<!--more-->"
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/Denver # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+github: HeathDRobertson
+
+# Reading Files
+include:
+  - _pages
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - gemset.nix
+  - post.nix
+  - README.md
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Social Sharing
+twitter:
+  username: HeathDRobertson
+github-username: HeathDRobertson
+linkedin:
+  username: HeathDRobertson
+facebook:
+  username: HeathDRobertson
+repository: heathdrobertson/heathdrobertson.github.io
+
+author:
+  name   : "Heath Robertson"
+  avatar : "/assets/images/heath-robertson-bio-photo.jpg"
+  bio    : "Chasing down my digital engineering dream."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "http://www.heathrobertson.com"
+    - label: "Email"
+      icon: "fas fa-envelope-square"
+      url: "mailto:CodeHappens@ToiletHill.io?subject=Mail from ToiletHill.io"
+    - label: "Telegram"
+      icon: "fab fa-telegram"
+      url: "https://t.me/HeathDRobertson"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/HeathDRobertson"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/heathdrobertson"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/HeathDRobertson"
+
+footer:
+  links:
+    - label: "Telegram"
+      icon: "fab fa-telegram"
+      url: "https://t.me/HeathDRobertson"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/HeathDRobertson"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/heathdrobertson"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/HeathDRobertson"
+
+# Archive
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Collections
+collections:
+    notes:
+        output: true
+        permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _notes
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+      teaser: true
+      toc: true
+      toc_icon: "scroll"
