@@ -1,29 +1,26 @@
 ---
-title: "Tools Covered"
-date: 2019-11-15T07:15:00-00:00
+title: "Setup"
+date: 2020-06-09 14:33:34.377678
 categories:
   - blog
 tags:
   - Welcome
-  - tools
+  - set up
 header:
     teaser: /assets/images/teaser_image_place_holder.jpg
 ---
-## Tools
 
-<ul>
-{% for tool in site.data.learn.tools %}
-<li>
-{{ tool.title }}
-	<ul>
-	{% for name in tool.list %}
-		<li>
-			{{ name }}
-		</li>
-	{% endfor %} 
-	</ul>
-</li>
-{% endfor %}
-</ul>
+What we will be doing is creating a development environment that uses networked
+Docker containers running NixOs.  Generally I run a container with my
+Integrated Development Environment (IDE), a second container running the
+specific development environment for building the project and a data container
+that carries the Nix packages.
+
+
+What you will need:
+1. Terminal App
+2. Docker
+
+
 
 <a href="{{ site.data.links.toilethill }}" target="_blank">ToiletHill.io</a>
