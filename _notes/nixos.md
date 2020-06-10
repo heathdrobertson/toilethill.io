@@ -73,6 +73,12 @@ docker run --rm --volumes-from=nix -it -v=$(pwd):/home -w=/home nixos/nix nix-sh
 docker run --rm --volumes-from=nix -it -v=$(pwd):/home -w=/home --ip=localhost -p=4000:4000 nixos/nix nix-shell /home/post.nix
 ```
 
+## Commands
+
+- Install a Nix package from nix-shell
+```bash
+nix-env -iA nixpkgs.ruby
+```
 
 ## Links
 [Nix in Docker – Best of Both Worlds](https://datakurre.pandala.org/2015/11/nix-in-docker-best-of-both-worlds.html/)

@@ -9,7 +9,6 @@ stdenv.mkDerivation {
     nodejs
   ];
   shellHook = ''
-    cd blog/
     bundler package --no-install --path vendor
     rm -rf .bundle/ vendor/
     $(nix-build '<nixpkgs>' -A bundix)/bin/bundix
