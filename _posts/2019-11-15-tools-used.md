@@ -20,6 +20,7 @@ that carries the Nix packages.
 What you will need:
 1. Terminal App
 2. Docker
+3. Browser: Brave or Chrome
 
 
 
