@@ -10,7 +10,7 @@ subtitle: ""
 logo: assets/images/logo/ToiletHill_header.png
 email: CodeHappens@ToiletHill.io
 description: >- # this means to ignore newlines until "baseurl:"
-    ToiletHill.io is a blog dedicated to recording the journey of self-teaching computer programming and development. Technologies include; Mac, Linux, Command Line, Vim, Bash, Docker, GitHub, Python, Haskell, Rust, JavaScript, CSS, HTML, Solidity, Plutus, Nodejs, Jekyll, Markdown, NixOs & nix Shell, Jupyter Lab (Python & Haskell), Bitcoin, Ethereum, Cardano, Holochain and most likely others.
+    ToiletHill.io is a blog dedicated to recording the journey of self-teaching computer programming and development. Technologies include; Mac, Linux, Command Line, Vim, Bash, Docker, GitHub, Python, Haskell, Rust, JavaScript, CSS, HTML, Solidity, Plutus, React, Nodejs, Jekyll, Markdown, NixOs & nix Shell, Jupyter Lab (Python & Haskell), Bitcoin, Ethereum, Cardano, Holochain and most likely others.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ToiletHill.io" # the base hostname & protocol for your site, e.g. http://example.com
 teaser: /assets/images/teaser_image_place_holder.jpg
@@ -52,18 +52,18 @@ plugins:
 
 # Social Sharing
 twitter:
-  username: HeathDRobertson
-github-username: HeathDRobertson
+  username: ToiletHill
 linkedin:
   username: HeathDRobertson
 facebook:
   username: HeathDRobertson
+github-username: HeathDRobertson
 repository: heathdrobertson/heathdrobertson.github.io
 
 author:
   name   : "Heath Robertson"
   avatar : "/assets/images/heath-robertson-bio-photo.jpg"
-  bio    : "Chasing down my digital engineering dream."
+  bio    : "Temporarily self-aware pattern in the flow of stardust."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -71,6 +71,9 @@ author:
     - label: "Email"
       icon: "fas fa-envelope-square"
       url: "mailto:CodeHappens@ToiletHill.io?subject=Mail from ToiletHill.io"
+    - label: "YouTube"
+      icons: "fab fa-youtube"
+      url: "https://www.youtube.com/channel/UCG4Av0xeLAD-hJCQHMrYqtA"
     - label: "Telegram"
       icon: "fab fa-telegram"
       url: "https://t.me/HeathDRobertson"
@@ -82,10 +85,16 @@ author:
       url: "https://linkedin.com/in/heathdrobertson"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/HeathDRobertson"
+      url: "https://twitter.com/ToiletHill"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit-square"
+      url: "https://www.reddit.com/user/ToiletHill"
 
 footer:
   links:
+    - label: "YouTube"
+      icons: "fab fa-youtube"
+      url: "https://www.youtube.com/channel/UCG4Av0xeLAD-hJCQHMrYqtA"
     - label: "Telegram"
       icon: "fab fa-telegram"
       url: "https://t.me/HeathDRobertson"
@@ -97,7 +106,10 @@ footer:
       url: "https://linkedin.com/in/heathdrobertson"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/HeathDRobertson"
+      url: "https://twitter.com/ToiletHill"
+    - label: "Reddit"
+      icon: "fab fa-fw fa-reddit-square"
+      url: "https://www.reddit.com/user/ToiletHill"
 
 # Archive
 category_archive:

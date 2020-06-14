@@ -57,8 +57,7 @@
         },
         {
             "list": [
-                "Angular",
-                "Vue.js",
+                "React",
                 "flask",
                 "Jekyll"
             ],

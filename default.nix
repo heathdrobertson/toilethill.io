@@ -14,7 +14,7 @@ stdenv.mkDerivation rec {
 
   shellHook = ''
     export LANG=C.UTF-8 
-    exec ${jekyll_env}/bin/jekyll serve --watch --host 0.0.0.0 --port 4000
+    exec ${jekyll_env}/bin/jekyll serve --livereload --host 0.0.0.0 --port 4000
   '';
 }
 
