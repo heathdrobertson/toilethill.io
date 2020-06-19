@@ -14,13 +14,13 @@ stdenv.mkDerivation rec {
 
   shellHook = ''
     export LANG=C.UTF-8 
-    exec ${jekyll_env}/bin/jekyll serve --livereload --host 0.0.0.0 --port 4000
   '';
 }
 
 ######
 #NOTES
 ######
+# exec ${jekyll_env}/bin/jekyll serve --livereload --host 0.0.0.0 --port 4000
 # lockfile = ./Gemfile.lock;
 # post.nix generates a local environment for updating a Jekyll website, hosted on GitHub Pages.
 # This file borrows heavily from: 

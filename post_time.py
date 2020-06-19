@@ -8,5 +8,6 @@ def main():
     print(f'{d}')
 
 
+
 if __name__=="__main__":
     main();
